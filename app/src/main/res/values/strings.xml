@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Own Card</string>
+    <string name="firstpartquote">It always seems impossible</string>
+    <string name="secondpartquote">until it is done.</string>
+    <string name="firstkeepcalm">Keep calm</string>
+    <string name="and">and</string>
+    <string name="study_on">Study on</string>
+    <string name="you_can_do_it">You can do it!</string>
+</resources>
