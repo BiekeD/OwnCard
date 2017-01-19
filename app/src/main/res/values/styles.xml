@@ -38,12 +38,17 @@
     </style>
 
     <style name="finaltext" parent="@android:style/TextAppearance">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">0dp</item>
-        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
         <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:paddingRight">@dimen/activity_horizontal_margin</item>
         <item name="android:fontFamily">casual</item>
         <item name="android:textSize">@dimen/medium_text</item>
+    </style>
+
+    <style name="buttonStyle" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
     </style>
 
 </resources>
