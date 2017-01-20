@@ -73,10 +73,12 @@
             android:text="@string/you_can_do_it" />
 
         <ImageButton
-            style="@style/buttonStyle"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
             android:src="@drawable/ic_keyboard_arrow_right_black_24dp"
             android:tint="@color/colorPrimaryDark"
-            android:onClick="getNewText"/>
+            android:onClick="getNewText"
+            android:id="@+id/imageButton" />
 
     </LinearLayout>
 
